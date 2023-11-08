@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.panels {
+    display: flex;
+    justify-content: center;
+
+}
+
+.panel {
+    width: 150px;
+    height: 460px;
+    border-radius: 30px;
+    padding: 5px;
+    object-fit: cover;
+    transition: flex 0.7s ease-in;
+}
